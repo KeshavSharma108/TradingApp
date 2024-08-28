@@ -14,6 +14,10 @@ import { IPLLogo } from "../assest/Images";
 import config from "../Config";
 import Slider from "@react-native-community/slider";
 import AntDesign from "@expo/vector-icons/AntDesign";
+
+
+
+
 const CustomSwitch = ({ isOn, onToggle, onColor, offColor }) => {
   const [translateX] = useState(new Animated.Value(0));
 
